@@ -3,7 +3,23 @@
   <head>
     <title>Webpage Title</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link
+      rel="stylesheet"
+      href="css/movil.css"
+      media="screen and (max-width: 480px)"
+    />
+    <link
+      rel="stylesheet"
+      href="css/tablet.css"
+      media="screen and (max-width: 768px) and (min-width: 481px)"
+    />
+    <link
+      rel="stylesheet"
+      href="css/ordenador.css"
+      media="screen and (min-width: 769px)"
+    />
+    <link rel="icon" type="image/jpg" sizes="32x32" href="images/favicon.jpg" />
   </head>
 
   <body>
@@ -13,7 +29,6 @@
           ><img src="images/fflogo.png" alt="Forward Fitness Club logo"
         /></a>
       </header>
-
       <nav>
         <ul>
           <li><a href="index.html">Home </a></li>
@@ -23,28 +38,75 @@
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
-
+      <div id="hero">
+        <img
+          src="images/trainWithUs.jpg"
+          alt="left arm extended holding a weight"
+        />
+      </div>
       <main>
         <div id="intro">
-          <p>
-            Welcome to Forward Fitness Club. Our mission is to help our clients
-            meet their fitness and nutrition goals.
-          </p>
+          <div id="articulos">
+            <article>
+              <h2>Food For Thoughts</h2>
+              <img src="images/cerebro-comida.jpg" alt="Food For Thoughts" />
+              <p>
+                Good nutrition is the key to good mental and physical health.
+                Eating a balanced diet is an important part of good health for
+                everyone. The kind and amount of food you eat affects the way
+                you feel and how your body works.
+              </p>
+            </article>
 
-          <p>
-            If you have struggled with getting healthy and need the motivation
-            and resources to make a healthy lifestyle change, contact us today.
-            Our facility includes state-of-the-art equipment, convenient group
-            training classes, and nutrition tips and information to keep you
-            healthy.
-          </p>
-
-          <p>
-            We provide a FREE one-week membership so you can experience the
-            benefits of our equipment and facility. This one-week trial gives
-            you complete access to our equipment, training classes, and
-            nutrition planning. Contact us today to start your free trial!
-          </p>
+            <article>
+              <h2>What to Eat</h2>
+              <img src="images/comida.jpg" alt="What to Eat" />
+              <p>Use the guideline:</p>
+              <ul>
+                <li>Protein</li>
+                <li>Vegetables</li>
+                <li>Fruits</li>
+              </ul>
+              <p>
+                We recommend eating mostly vegetables, fruit, and whole grains,
+                healthy fats, and healthy proteins. We suggest drinking water
+                instead of sugary beverages, and we also address common dietary
+                concerns such as salt and sodium, vitamins, and alcohol.
+              </p>
+            </article>
+            <article>
+              <h2>Meal of the Week</h2>
+              <img src="images/pollo.jpg" alt="Meal of the Week" />
+              <p>Herb-Roasted Chicken Recipe</p>
+              <ul>
+                <li>1 tsp fresh chopped thyme</li>
+                <li>1/2 tsp garlic powder</li>
+                <li>1/2 tsp sea salt</li>
+                <li>1/4 tsp ground black pepper</li>
+                <li>1/2 lemon</li>
+                <li>1 tsp fresh chopped thyme</li>
+              </ul>
+            </article>
+          </div>
+          <aside>
+            <p>
+              Welcome to Forward Fitness Club. Our mission is to help our
+              clients meet their fitness and nutrition goals.
+            </p>
+            <p>
+              If you have struggled with getting healthy and need the motivation
+              and resources to make a healthy lifestyle change, contact us
+              today. Our facility includes state-of-the-art equipment,
+              convenient group training classes, and nutrition tips and
+              information to keep you healthy.
+            </p>
+            <p>
+              We provide a FREE one-week membership so you can experience the
+              benefits of our equipment and facility. This one-week trial gives
+              you complete access to our equipment, training classes, and
+              nutrition planning. Contact us today to start your free trial!
+            </p>
+          </aside>
         </div>
       </main>
 
